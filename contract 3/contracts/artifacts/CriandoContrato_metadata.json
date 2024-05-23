@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "valor1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CriandoContratos.sol": "CriandoContrato"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CriandoContratos.sol": {
+			"keccak256": "0x9557b97fe13be2e94f983b0f636aaa9bf46435d951a9ab719ffe05f1ad4edde8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39dd078bde12d0f4361692dd8a642b58692fcd214b950b63dda0155a6a828a70",
+				"dweb:/ipfs/QmUHG4pQzxA68WUUtzCQkWf6ChJcJT3e53QzptuFd9cHAu"
+			]
+		}
+	},
+	"version": 1
+}
