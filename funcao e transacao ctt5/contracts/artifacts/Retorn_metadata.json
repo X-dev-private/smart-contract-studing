@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retornaContagem",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retornaContagem2",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "retorna",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Retorn.sol": "Retorn"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Retorn.sol": {
+			"keccak256": "0xea0ee4bcde4d09a7ba740a3c026a22622158c683f1a1a7bba0a63c1dcd5f1101",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://22599dc878496921d53bffbb1a57087585594d689d5a6d43bb9bec16c346dbd8",
+				"dweb:/ipfs/QmRs1b1XmiCy3yM2TPE4WFocVwKmSHwbq2TxqkrJHLWvrC"
+			]
+		}
+	},
+	"version": 1
+}

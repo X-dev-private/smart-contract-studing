@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Inteiro.sol": "Inteiro"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Inteiro.sol": {
+			"keccak256": "0x31f0236c3a12ba33679f17424a61abe8f42d667f33c578f221f173a1a1f62407",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b71c78274b1ad9c9cdd57aa697f5d5dfb12722ecbb772335957d2f06ced009fa",
+				"dweb:/ipfs/QmWQtTiWrHncrZFBzcwhGV9GKHqRQatFzAJafVBbRm1GAp"
+			]
+		}
+	},
+	"version": 1
+}
