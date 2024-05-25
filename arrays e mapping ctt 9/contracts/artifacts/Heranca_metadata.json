@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "lerValorBob",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Heranca.sol": "Heranca"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Heranca.sol": {
+			"keccak256": "0x6f79d8ff14a81c77b228f81377d4b1f5dd0e784762b246ea158d11476f739be6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0eede6a2964495ef8b59a31a4371a0e23dd7e8c8fa825519ee9ee5194ff6855",
+				"dweb:/ipfs/QmV631o86nTBZbHgJr7yVeLj7ZSSbUCtHsRE4Fc1orTq2f"
+			]
+		}
+	},
+	"version": 1
+}

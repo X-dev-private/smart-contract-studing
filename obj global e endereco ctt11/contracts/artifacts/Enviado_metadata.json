@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Envia.sol": "Enviado"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Envia.sol": {
+			"keccak256": "0x07e250acd1fd880f00176f65225d95943834b0f793dadfa839c34718393f8f65",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ad2e7e8dc05f1811ceabc4b45a1b38c6ac558da90c87c7663f49d11a874f988",
+				"dweb:/ipfs/QmRaUnP4SSS2sN9bKVbeCjuUaDFsACtrsKuTAsSrWQ8XXH"
+			]
+		}
+	},
+	"version": 1
+}

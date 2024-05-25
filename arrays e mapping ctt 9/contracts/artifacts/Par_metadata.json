@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "par1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "par2",
+						"type": "string"
+					}
+				],
+				"name": "criaPar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "par",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Par.sol": "Par"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Par.sol": {
+			"keccak256": "0xf87df80e9498da1ba628060b6da6bc9425d66ec2dd842591775710fba7dc1484",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://505c0dc4c3101f1701dc1d49845ea4ed67bc479b80d7a342d76e0419c7c4eefd",
+				"dweb:/ipfs/QmeNEzQBhEh5ftK3rNTWVjpfTr1a7q3pFTjLUbqNXqA4tn"
+			]
+		}
+	},
+	"version": 1
+}

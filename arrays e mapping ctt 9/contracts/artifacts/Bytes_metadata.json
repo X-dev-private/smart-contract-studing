@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "texto",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "texto2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Bytes.sol": "Bytes"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Bytes.sol": {
+			"keccak256": "0x6a37a6281f1530dda185ae81cf0f04eba4067f759c186cdf9423f54b83f1b331",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01df75251ab1a26228b4c11b199f9fe2a43a30bd46e373eacc7ab8da52816400",
+				"dweb:/ipfs/QmVjQX6jGu9hn3QnmyJG9utLPQyj2eEbqrbuCRHA2UryjD"
+			]
+		}
+	},
+	"version": 1
+}
