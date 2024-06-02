@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "endereco",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "executaSoma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Instancias.sol": "Caller"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Instancias.sol": {
+			"keccak256": "0xc1cf451b32643ce3054f36ba2085dc0aa04a465a9b5f9c5b709af84e7c4c13a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4cf0b29cd8258dc714864773051420dd4c9b0555c46d9a68752bdd9d2cb090bd",
+				"dweb:/ipfs/QmVNYci9DQ8AwfisQ1eGJM5eUsYiwGMkQn7kydeCafjFca"
+			]
+		}
+	},
+	"version": 1
+}

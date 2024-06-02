@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "608060405260245f806101000a81548160ff021916908360ff1602179055505f8054906101000a900460ff1660ff165f60016101000a81548161ffff021916908361ffff1602179055503480156053575f80fd5b50603e80605f5f395ff3fe60806040525f80fdfea264697066735822122057f35a258a6b30d5deb32fd4cc761e89ad02d65200e586eca37db09684e8e81364736f6c63430008190033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x24 PUSH0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 PUSH1 0xFF AND MUL OR SWAP1 SSTORE POP PUSH0 DUP1 SLOAD SWAP1 PUSH2 0x100 EXP SWAP1 DIV PUSH1 0xFF AND PUSH1 0xFF AND PUSH0 PUSH1 0x1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH2 0xFFFF MUL NOT AND SWAP1 DUP4 PUSH2 0xFFFF AND MUL OR SWAP1 SSTORE POP CALLVALUE DUP1 ISZERO PUSH1 0x53 JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x5F PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMPI RETURN GAS 0x25 DUP11 PUSH12 0x30D5DEB32FD4CC761E89AD02 0xD6 MSTORE STOP 0xE5 DUP7 0xEC LOG3 PUSH30 0xB09684E8E81364736F6C6343000819003300000000000000000000000000 ",
+			"sourceMap": "57:176:0:-:0;;;200:2;184:18;;;;;;;;;;;;;;;;;;;;223:7;;;;;;;;;;208:22;;;;;;;;;;;;;;;;;;;;;;57:176;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea264697066735822122057f35a258a6b30d5deb32fd4cc761e89ad02d65200e586eca37db09684e8e81364736f6c63430008190033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMPI RETURN GAS 0x25 DUP11 PUSH12 0x30D5DEB32FD4CC761E89AD02 0xD6 MSTORE STOP 0xE5 DUP7 0xEC LOG3 PUSH30 0xB09684E8E81364736F6C6343000819003300000000000000000000000000 ",
+			"sourceMap": "57:176:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "50784",
+				"totalCost": "63184"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

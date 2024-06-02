@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "repete",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Repete.sol": "While"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Repete.sol": {
+			"keccak256": "0x11c484e4b1e4f237cc8940f8cdbf01aeeb33e6606709d61ddc064a49124ce859",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://efd96101366295d85faac74799f4f8c1db911082093018753e0874faabafe3ef",
+				"dweb:/ipfs/QmNpac3Hgthb4zYY5eZjmjBn6QUGMCFzwTUoJMkU7BsfX4"
+			]
+		}
+	},
+	"version": 1
+}

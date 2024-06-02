@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "dono",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "setRestrita",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Modificadores.sol": "Modificadores"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Modificadores.sol": {
+			"keccak256": "0x47e8d1ced3cc7ad3e5fe4f1359d29de9813058955d3360b185d965eccd17cbb3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96f14aeaf99c52c383bc93e22f1bac28a2c7e1b586712ccccc31748f7d46ed53",
+				"dweb:/ipfs/QmdPnuRugzB8ABDqVgyz2MrNEp6KH3bp6xuDdC5VLANsuL"
+			]
+		}
+	},
+	"version": 1
+}

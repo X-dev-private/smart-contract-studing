@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "limite",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "valorRecebido",
+						"type": "uint256"
+					}
+				],
+				"name": "OutOfRange",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valorA",
+						"type": "uint256"
+					}
+				],
+				"name": "exemploA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valorB",
+						"type": "uint256"
+					}
+				],
+				"name": "exemploB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valorC",
+						"type": "uint256"
+					}
+				],
+				"name": "exemploC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "limite",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Erros.sol": "Revert"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Erros.sol": {
+			"keccak256": "0xf3150eb5d5d8c821f999871ef525671676aefe0e5f8898a740002df6629499bf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://536a38633c9bc3fb76c6d43d8503fa3cd6c82ee6c4eebf0ce940b31ecd090859",
+				"dweb:/ipfs/QmPm3YfMKSrTdChkhMAKxTawnveeWs4eHdhGdEFRRAXcMU"
+			]
+		}
+	},
+	"version": 1
+}

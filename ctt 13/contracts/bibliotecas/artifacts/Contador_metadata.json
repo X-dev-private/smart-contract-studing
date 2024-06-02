@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "resolveContador",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "usaUintSoma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/bibliotecas/Contador.sol": "Contador"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/bibliotecas/Biblioteca.sol": {
+			"keccak256": "0xef0826bf1b15fd2f1137a970ccebd1ac4061c39ce7b22e6a65713bd1643b3508",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://940d9aaf4961a6702b606435f1287ed903c9701d4e282e6e33ecbd84b70039f7",
+				"dweb:/ipfs/QmcHxGfYxyxuf1S5EPJhMwRoiyqipBhE5zszZRoE8h9NzG"
+			]
+		},
+		"contracts/bibliotecas/Contador.sol": {
+			"keccak256": "0xc1b95e99a023acb0fab791730351b016d20ecddff1f55e31a355b7ccaa743d2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f8efd80d916c01115646a95dbc0ffa5e5146a4e6f7483d4ccf112371c410039",
+				"dweb:/ipfs/QmbVY3p48895MhzeowHfpLvx9E4QBXncTYxhrG3buF8c9Q"
+			]
+		}
+	},
+	"version": 1
+}

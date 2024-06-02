@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "endereco",
+						"type": "address"
+					}
+				],
+				"name": "ExecutaValor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Interface.sol": "Executor"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Interface.sol": {
+			"keccak256": "0x5aaaaf5d67b8ee80cbf04615ab8272d5c3902174d6e526ad810a25a421331f09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://caab9e42f58931efde5d5febe71d25944205c537e6293e85b0f05ecb4fa85970",
+				"dweb:/ipfs/QmPW3q3ZbQXXXj2g5oERp3K2GZWtHqTd2M9YPobV9eXjVV"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "converte",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Conversao.sol": "Explicita"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Conversao.sol": {
+			"keccak256": "0xbddd1fc65dce4a0c45e37db187e15ff77d25f8053fc42ae6484eba4102e9d0b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8518f1719c92d65e9761f5b9c29a2df6f9245faa98d06e082e290d886acd8a6c",
+				"dweb:/ipfs/Qmep3CXq95zeMPRtuNQM44VKHNV5AnJmwXzajZEBShWNt2"
+			]
+		}
+	},
+	"version": 1
+}
